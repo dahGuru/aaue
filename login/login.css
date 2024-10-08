@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ?\NAV START */
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #790403;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    padding-right: 13px;
+    padding-top: 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.loogo{
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 12px;
+} 
+
+.loogo:hover{
+    color: #fff;
+    background-color: #790403;
+}
+
+li a:hover{
+    background-color: #900604;
+    color: #fff;
+}
+
+
+/* .hd-container {
+    background-color: #790403;
+    overflow: hidden;
+    border: 1px solid #790403;
+}
+
+.hd-container a {
+    float: left;
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    text-align: center;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    padding-right: 13px;
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: 549;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hd-container a.nav-right {
+    float: right;
+}
+
+.hd-container a.logo {
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.hd-container a:hover {
+    color: #fff;
+} */
+
+/* NAV END */
+
+/* SECTION START */
+
+.bd-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-left: 55px;
+    margin-right: 55px;
+    padding: 20px;
+    border: 1px solid hsla(0, 0%, 52%, 0.347);
+}
+
+.main h1 {
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 1;
+    padding: 10px;
+    padding-left: 0;
+    color: rgb(51, 51, 51);
+}
+
+h1 h2,
+h3 {
+    font-weight: normal;
+}
+
+small {
+    font-size: 1.63em;
+    color: #999999;
+    line-height: 1;
+}
+
+.support p {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+marquee .mar-txt {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+/* FOOTER */
+
+.foot {
+    display: block;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+    line-height: 1.1;
+}
+
+.foot span {
+    font-size: 14.6px;
+    float: right;
+    margin-right: 55px;
+}
+
+.scroll {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* FORM SECTION */
+
+.form-sect{
+    display: flex;
+}
